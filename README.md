@@ -46,7 +46,7 @@ If you're using a cloud-based/headless system, you can use `headless.sh` to set 
 HEADLESS=1 MEM=1G CPUS=2 SYSTEM_DISK=MyDisk.qcow2 ./headless.sh
 ```
 
-## Step 3
+## Step 3 (Optional)
 If you would like to use OpenCore instead of Clover edit your `basic\headless\virtio.sh` to point to `ESPOC.qcow2` instead of `ESP.qcow2`.
 Just like with Clover make sure to configure it accordingly after you install. Lilu is preconfigured in the config file and disabled to serve as an example of adding kexts to the config if you have never used OpenCore before or don't want to dig through the documentation.
 
